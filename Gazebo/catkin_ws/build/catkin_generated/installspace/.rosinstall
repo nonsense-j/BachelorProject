@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nonsense/Projects/FinalTask/Gazebo/catkin_ws/install/setup.sh

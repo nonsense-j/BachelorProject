@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/autTest.dir/autTest.cpp.o  -o autTest  -Wl,-rpath,/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/build libautparser.so 

@@ -1,0 +1,218 @@
+
+
+State 0 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:1, bit3:0>
+	With successors : 1, 2, 3, 4
+State 1 with rank 1 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 93, 13, 94
+State 2 with rank 1 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 3 with rank 1 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 9, 7, 10
+State 4 with rank 1 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 6, 7, 8
+State 5 with rank 1 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 93, 13, 94
+State 6 with rank 1 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 7 with rank 1 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 9, 7, 10
+State 8 with rank 1 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 6, 7, 8
+State 9 with rank 1 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 10 with rank 1 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 6, 7, 8
+State 11 with rank 1 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 103, 23, 104
+State 12 with rank 1 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 13 with rank 1 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 16, 17, 18
+State 14 with rank 1 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 15 with rank 2 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 103, 23, 104
+State 16 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 22, 23, 24
+State 17 with rank 2 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 16, 17, 18
+State 18 with rank 2 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 19, 17, 20
+State 19 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 22, 23, 24
+State 20 with rank 2 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 19, 17, 20
+State 21 with rank 2 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 25, 26, 27, 28
+State 22 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 22, 23, 24
+State 23 with rank 2 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 16, 17, 18
+State 24 with rank 2 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 22, 23, 24
+State 25 with rank 2 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 101, 37, 102
+State 26 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 36, 37, 38
+State 27 with rank 2 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 33, 31, 34
+State 28 with rank 2 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 30, 31, 32
+State 29 with rank 3 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 101, 37, 102
+State 30 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 36, 37, 38
+State 31 with rank 3 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 33, 31, 34
+State 32 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 30, 31, 32
+State 33 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 36, 37, 38
+State 34 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 30, 31, 32
+State 35 with rank 3 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 40, 41, 42
+State 36 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 36, 37, 38
+State 37 with rank 3 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 33, 31, 34
+State 38 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 35, 36, 37, 38
+State 39 with rank 3 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:1>
+	With successors : 51, 99, 53, 100
+State 40 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:1>
+	With successors : 51, 52, 53, 54
+State 41 with rank 3 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 43, 47, 45, 48
+State 42 with rank 3 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 43, 44, 45, 46
+State 43 with rank 3 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 40, 41, 42
+State 44 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 49, 41, 50
+State 45 with rank 3 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 43, 47, 45, 48
+State 46 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 43, 44, 45, 46
+State 47 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 49, 41, 50
+State 48 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 43, 44, 45, 46
+State 49 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 49, 41, 50
+State 50 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 49, 41, 50
+State 51 with rank 3 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 97, 63, 98
+State 52 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:1>
+	With successors : 51, 52, 53, 54
+State 53 with rank 3 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 56, 57, 58
+State 54 with rank 3 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:1, bit3:1>
+	With successors : 51, 52, 53, 54
+State 55 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 97, 63, 98
+State 56 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 62, 63, 64
+State 57 with rank 0 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 56, 57, 58
+State 58 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 59, 57, 60
+State 59 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 62, 63, 64
+State 60 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 59, 57, 60
+State 61 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 66, 67, 68
+State 62 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 62, 63, 64
+State 63 with rank 0 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 56, 57, 58
+State 64 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 62, 63, 64
+State 65 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 87, 79, 88
+State 66 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 78, 79, 80
+State 67 with rank 0 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 69, 73, 71, 74
+State 68 with rank 0 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 69, 70, 71, 72
+State 69 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 66, 67, 68
+State 70 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 75, 67, 76
+State 71 with rank 0 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 69, 73, 71, 74
+State 72 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 69, 70, 71, 72
+State 73 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 75, 67, 76
+State 74 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 69, 70, 71, 72
+State 75 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 75, 67, 76
+State 76 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 75, 67, 76
+State 77 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 89, 95, 91, 96
+State 78 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 78, 79, 80
+State 79 with rank 0 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 81, 82, 83, 84
+State 80 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 78, 79, 80
+State 81 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 87, 79, 88
+State 82 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 78, 79, 80
+State 83 with rank 0 -> <enemy:1, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 81, 82, 83, 84
+State 84 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:1, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 81, 85, 83, 86
+State 85 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:1, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 77, 78, 79, 80
+State 86 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:1, protect_mode:1, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 81, 85, 83, 86
+State 87 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 89, 90, 91, 92
+State 88 with rank 0 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:1>
+	With successors : 81, 85, 83, 86
+State 89 with rank 0 -> <enemy:0, ground_casualty:0, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 93, 13, 94
+State 90 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 89, 90, 91, 92
+State 91 with rank 0 -> <enemy:1, ground_casualty:0, attack:1, attack_over:0, take_photo:0, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 9, 7, 10
+State 92 with rank 0 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 89, 90, 91, 92
+State 93 with rank 1 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 21, 22, 23, 24
+State 94 with rank 1 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 19, 17, 20
+State 95 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 11, 12, 13, 14
+State 96 with rank 0 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 5, 6, 7, 8
+State 97 with rank 0 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:1, bit3:0>
+	With successors : 65, 75, 67, 76
+State 98 with rank 0 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 59, 57, 60
+State 99 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 61, 62, 63, 64
+State 100 with rank 3 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:0, bit2:0, bit3:0>
+	With successors : 55, 59, 57, 60
+State 101 with rank 3 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:1, bit3:0>
+	With successors : 39, 49, 41, 50
+State 102 with rank 3 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:1>
+	With successors : 29, 30, 31, 32
+State 103 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 25, 105, 27, 106
+State 104 with rank 2 -> <enemy:1, ground_casualty:1, attack:1, attack_over:0, take_photo:1, attack_mode:0, protect_mode:0, bit0:1, bit1:0, bit2:0, bit3:0>
+	With successors : 15, 19, 17, 20
+State 105 with rank 2 -> <enemy:0, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 25, 105, 27, 106
+State 106 with rank 2 -> <enemy:1, ground_casualty:1, attack:0, attack_over:0, take_photo:0, attack_mode:0, protect_mode:1, bit0:0, bit1:1, bit2:0, bit3:0>
+	With successors : 25, 105, 27, 106
+
+

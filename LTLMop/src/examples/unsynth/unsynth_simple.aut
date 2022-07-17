@@ -1,0 +1,6 @@
+
+
+State 0 with rank (0,-1) -> <fire:0, hazardous_item:0, pick_up:0, drop:0, carrying_item:0, bit0:0, bit1:1, bit2:0>
+	With successors : 1
+State 1 with rank (0,-1) -> <fire:0, hazardous_item:0>
+	With no successors.

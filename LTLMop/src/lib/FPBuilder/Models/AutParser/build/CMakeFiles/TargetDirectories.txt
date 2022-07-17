@@ -1,0 +1,4 @@
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/build/CMakeFiles/rebuild_cache.dir
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/build/CMakeFiles/edit_cache.dir
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/build/CMakeFiles/autTest.dir
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/build/CMakeFiles/autparser-share.dir

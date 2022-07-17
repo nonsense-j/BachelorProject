@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/autTest.cpp
+autparser.hpp
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/autparser.hpp
+
+/home/nonsense/Projects/FinalTask/fprime/Ref/AutParser/autparser.hpp
+algorithm
+-
+cmath
+-
+fstream
+-
+iostream
+-
+regex
+-
+string
+-
+unistd.h
+-
+unordered_map
+-
+vector
+-
+

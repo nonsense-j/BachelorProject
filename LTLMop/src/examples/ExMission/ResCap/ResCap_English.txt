@@ -1,0 +1,21 @@
+# initial conditions
+Env starts with false
+you start in left with false
+
+# Guarantee
+Always !nofly
+
+# Define robot safety including how to attack
+Do attack if and only if you are sensing enemy and you are not activating attack_mode and you are not activating protect_mode
+If you are activating attack_mode then stay there
+attack_mode is set on attack and reset on attack_over
+Do attack_over if and only if you are not sensing enemy and you are activating attack_mode
+
+# Define when and how to take_photo
+Do take_photo if and only if you are sensing ground_casualty and you are not activating protect_mode
+if you are activating protect_mode then stay there
+protect_mode is set on take_photo and reset on !ground_casualty
+
+# Patrol goals
+Group areas is left, up, down, right
+If you are not activating attack_mode and you are not activating protect_mode then visit all areas

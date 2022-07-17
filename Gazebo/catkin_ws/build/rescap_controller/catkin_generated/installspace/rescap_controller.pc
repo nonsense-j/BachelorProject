@@ -1,0 +1,8 @@
+prefix=/home/nonsense/Projects/FinalTask/Gazebo/catkin_ws/install
+
+Name: rescap_controller
+Description: Description of rescap_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

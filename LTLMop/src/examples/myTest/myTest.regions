@@ -1,0 +1,128 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+
+Obstacles: # Names of regions to treat as obstacles
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "boundary", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                267.0, 
+                0.0
+            ], 
+            [
+                149.0, 
+                0.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                0.0, 
+                77.0
+            ], 
+            [
+                149.0, 
+                77.0
+            ], 
+            [
+                149.0, 
+                78.0
+            ], 
+            [
+                267.0, 
+                78.0
+            ]
+        ], 
+        "position": [
+            210.0, 
+            163.0
+        ], 
+        "type": "poly", 
+        "size": [
+            267.0, 
+            78.0
+        ]
+    }, 
+    {
+        "name": "hall", 
+        "color": [
+            255, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0.0, 
+        "points": [
+            [
+                0.0, 
+                77.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                118.0, 
+                0.0
+            ], 
+            [
+                118.0, 
+                78.0
+            ], 
+            [
+                0.0, 
+                78.0
+            ]
+        ], 
+        "position": [
+            359.0, 
+            163.0
+        ], 
+        "type": "poly", 
+        "size": [
+            118.0, 
+            78.0
+        ]
+    }, 
+    {
+        "name": "room", 
+        "color": [
+            255, 
+            0, 
+            255
+        ], 
+        "height": 0.0, 
+        "position": [
+            210.0, 
+            163.0
+        ], 
+        "type": "rect", 
+        "size": [
+            149.0, 
+            77.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+boundary	hall	477.0	241.0	359.0	241.0	477.0	241.0	477.0	163.0	359.0	240.0	359.0	241.0	359.0	163.0	477.0	163.0
+boundary	room	210.0	240.0	359.0	240.0	359.0	163.0	210.0	163.0	210.0	240.0	210.0	163.0
+hall	room	359.0	163.0	359.0	240.0
+

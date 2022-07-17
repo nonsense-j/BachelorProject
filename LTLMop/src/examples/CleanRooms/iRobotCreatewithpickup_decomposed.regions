@@ -1,0 +1,423 @@
+# This is a region definition file for the LTLMoP toolkit.
+# Format details are described at the beginning of each section below.
+# Note that all values are separated by *tabs*.
+
+Background: # Relative path of background image file
+None
+
+CalibrationPoints: # Vertices to use for map calibration: (vertex_region_name, vertex_index)
+
+Obstacles: # Names of regions to treat as obstacles
+
+Regions: # Stored as JSON string
+[
+    {
+        "name": "p2", 
+        "color": [
+            0, 
+            0, 
+            255
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                62.0, 
+                70.0
+            ], 
+            [
+                0.0, 
+                70.0
+            ], 
+            [
+                0.0, 
+                1.0
+            ], 
+            [
+                62.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            621.0, 
+            278.0
+        ], 
+        "type": "poly", 
+        "size": [
+            62.0, 
+            70.0
+        ]
+    }, 
+    {
+        "name": "p3", 
+        "color": [
+            255, 
+            128, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                193.0, 
+                145.0
+            ], 
+            [
+                0.0, 
+                145.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                193.0, 
+                25.0
+            ]
+        ], 
+        "position": [
+            147.0, 
+            343.0
+        ], 
+        "type": "poly", 
+        "size": [
+            193.0, 
+            145.0
+        ]
+    }, 
+    {
+        "name": "p6", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                181.0, 
+                96.0
+            ], 
+            [
+                181.0, 
+                152.0
+            ], 
+            [
+                0.0, 
+                152.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                181.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            351.0, 
+            115.0
+        ], 
+        "type": "poly", 
+        "size": [
+            181.0, 
+            152.0
+        ]
+    }, 
+    {
+        "name": "p7", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                193.0, 
+                119.0
+            ], 
+            [
+                0.0, 
+                119.0
+            ], 
+            [
+                35.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            490.0, 
+            369.0
+        ], 
+        "type": "poly", 
+        "size": [
+            193.0, 
+            119.0
+        ]
+    }, 
+    {
+        "name": "p4", 
+        "color": [
+            255, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                204.0, 
+                152.0
+            ], 
+            [
+                0.0, 
+                152.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                204.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            147.0, 
+            115.0
+        ], 
+        "type": "poly", 
+        "size": [
+            204.0, 
+            152.0
+        ]
+    }, 
+    {
+        "name": "p5", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                151.0, 
+                96.0
+            ], 
+            [
+                0.0, 
+                96.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                151.0, 
+                0.0
+            ]
+        ], 
+        "position": [
+            532.0, 
+            115.0
+        ], 
+        "type": "poly", 
+        "size": [
+            151.0, 
+            96.0
+        ]
+    }, 
+    {
+        "name": "p8", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                150.0, 
+                120.0
+            ], 
+            [
+                0.0, 
+                120.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                185.0, 
+                1.0
+            ]
+        ], 
+        "position": [
+            340.0, 
+            368.0
+        ], 
+        "type": "poly", 
+        "size": [
+            185.0, 
+            120.0
+        ]
+    }, 
+    {
+        "name": "p9", 
+        "color": [
+            255, 
+            0, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                0.0, 
+                56.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                151.0, 
+                0.0
+            ], 
+            [
+                151.0, 
+                67.0
+            ], 
+            [
+                89.0, 
+                68.0
+            ]
+        ], 
+        "position": [
+            532.0, 
+            211.0
+        ], 
+        "type": "poly", 
+        "size": [
+            151.0, 
+            68.0
+        ]
+    }, 
+    {
+        "name": "p10", 
+        "color": [
+            0, 
+            255, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                96.0, 
+                0.0
+            ], 
+            [
+                158.0, 
+                0.0
+            ], 
+            [
+                158.0, 
+                140.0
+            ], 
+            [
+                0.0, 
+                21.0
+            ]
+        ], 
+        "position": [
+            525.0, 
+            348.0
+        ], 
+        "type": "poly", 
+        "size": [
+            158.0, 
+            140.0
+        ]
+    }, 
+    {
+        "name": "p11", 
+        "color": [
+            255, 
+            0, 
+            0
+        ], 
+        "holeList": [], 
+        "height": 0, 
+        "points": [
+            [
+                378.0, 
+                102.0
+            ], 
+            [
+                193.0, 
+                101.0
+            ], 
+            [
+                0.0, 
+                76.0
+            ], 
+            [
+                0.0, 
+                0.0
+            ], 
+            [
+                204.0, 
+                0.0
+            ], 
+            [
+                385.0, 
+                0.0
+            ], 
+            [
+                474.0, 
+                12.0
+            ], 
+            [
+                474.0, 
+                81.0
+            ]
+        ], 
+        "position": [
+            147.0, 
+            267.0
+        ], 
+        "type": "poly", 
+        "size": [
+            474.0, 
+            102.0
+        ]
+    }
+]
+
+Transitions: # Region 1 Name, Region 2 Name, Bidirectional transition faces (face1_x1, face1_y1, face1_x2, face1_y2, face2_x1, ...)
+p2	p9	621.0	279.0	683.0	278.0
+p2	p10	621.0	348.0	683.0	348.0
+p2	p11	621.0	348.0	621.0	279.0
+p3	p8	340.0	488.0	340.0	368.0
+p3	p11	147.0	343.0	340.0	368.0
+p6	p4	351.0	267.0	351.0	115.0
+p6	p5	532.0	211.0	532.0	115.0
+p6	p9	532.0	267.0	532.0	211.0
+p6	p11	351.0	267.0	532.0	267.0
+p7	p8	490.0	488.0	525.0	369.0
+p7	p10	683.0	488.0	525.0	369.0
+p4	p11	351.0	267.0	147.0	267.0
+p5	p9	683.0	211.0	532.0	211.0
+p8	p11	525.0	369.0	340.0	368.0
+p9	p11	621.0	279.0	532.0	267.0
+p10	p11	525.0	369.0	621.0	348.0
+

@@ -1,0 +1,15 @@
+
+digraph A {
+    rankdir = LR;
+    overlap = false;
+    ratio = "compress";
+	2 [style="bold", width=0, height=0, fontsize=20, label="!alarm\nregion = p1 (room)\n[Goal #0]"];
+	1 [style="bold", width=0, height=0, fontsize=20, label="alarm\nregion = p1 (room)\n[Goal #0]"];
+	0 [style="bold", width=0, height=0, fontsize=20, label="!alarm\nregion = p2 (hall)\n[Goal #0]"];
+	2 -> 2 [style="bold", arrowsize=1.5, fontsize=20, label="!get_up"];
+	2 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="get_up"];
+	1 -> 2 [style="bold", arrowsize=1.5, fontsize=20, label="!get_up"];
+	1 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="get_up"];
+	0 -> 0 [style="bold", arrowsize=1.5, fontsize=20, label="!get_up"];
+	0 -> 1 [style="bold", arrowsize=1.5, fontsize=20, label="get_up"];
+} 
